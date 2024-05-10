@@ -1,0 +1,15 @@
+C:\Tasks--project\Question7\Question7\bin\Debug\net8.0\Question7.exe
+C:\Tasks--project\Question7\Question7\bin\Debug\net8.0\Question7.deps.json
+C:\Tasks--project\Question7\Question7\bin\Debug\net8.0\Question7.runtimeconfig.json
+C:\Tasks--project\Question7\Question7\bin\Debug\net8.0\Question7.dll
+C:\Tasks--project\Question7\Question7\bin\Debug\net8.0\Question7.pdb
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\Question7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\Question7.AssemblyInfoInputs.cache
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\Question7.AssemblyInfo.cs
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\Question7.csproj.CoreCompileInputs.cache
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\Question7.sourcelink.json
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\Question7.dll
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\refint\Question7.dll
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\Question7.pdb
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\Question7.genruntimeconfig.cache
+C:\Tasks--project\Question7\Question7\obj\Debug\net8.0\ref\Question7.dll

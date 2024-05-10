@@ -22,6 +22,10 @@ namespace Question7
         }
         public override string ToString()
         {
+            return ToWord(number);
+        }
+        public string ToWord(int number)
+        {
             string numberToWord = "The number is: ";
             if (number >= 1000000000)
             {
@@ -53,7 +57,7 @@ namespace Question7
             return (numberToWord);
         }
 
-        static string NumberToString(int number)
+        public string NumberToString(int number)
         {
             string numberToWord = "";
             string[] oneToNinty = { "","one", "two", "three", "four", "five", "six","seven", "eight", "nine", "ten",
@@ -91,10 +95,10 @@ namespace Question7
             int numberCount = 0;
             int countLetters = 0;
             int countTab = 0;
-            string numberToString = "";
+            string numberToString;
             while (numberCount < upToNumber)
             {
-                numberToString = upToNumber.ToString();
+                numberToString = ToWord(upToNumber);
                 countLetters = numberToString.Length;
                 for (int i = 0; i < numberToString.Length; i++)
                 {
@@ -106,5 +110,6 @@ namespace Question7
             }
             return countLetters;
         }
+        
     }
 }
