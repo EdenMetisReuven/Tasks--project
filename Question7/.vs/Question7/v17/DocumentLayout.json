@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Tasks--project\\Question7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|c:\\tasks--project\\question7\\question7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|solutionrelative:question7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|c:\\tasks--project\\question7\\question7\\numericalexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|solutionrelative:question7\\numericalexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NumericalExpression.cs",
+              "DocumentMoniker": "C:\\Tasks--project\\Question7\\Question7\\NumericalExpression.cs",
+              "RelativeDocumentMoniker": "Question7\\NumericalExpression.cs",
+              "ToolTip": "C:\\Tasks--project\\Question7\\Question7\\NumericalExpression.cs",
+              "RelativeToolTip": "Question7\\NumericalExpression.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAA1wG0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T13:16:46.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Tasks--project\\Question7\\Question7\\Program.cs",
+              "RelativeDocumentMoniker": "Question7\\Program.cs",
+              "ToolTip": "C:\\Tasks--project\\Question7\\Question7\\Program.cs",
+              "RelativeToolTip": "Question7\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T13:15:53.32Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
