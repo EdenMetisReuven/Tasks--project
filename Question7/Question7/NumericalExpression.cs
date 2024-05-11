@@ -16,30 +16,11 @@ namespace Question7
             this.number = Number;
         }
 
-        public int SumLetters(int number)
-        {
-            int numberCount = 1;
-            int countLetters = 0;
-            int countTab = 0;
-            string numberToString;
-            while (numberCount < number)
-            {
-                numberToString = ToWord(numberCount);
-                countLetters = numberToString.Length;
-                for (int i = 0; i < numberToString.Length; i++)
-                {
-                    if (numberToString[i] == ' ')
-                        countTab++;
-                }
-                countLetters -= countTab;
-                numberCount++;
-            }
-            return countLetters;
-        }
-            
+
+
         public int GetValue()
         {
-            return number;        
+            return number;
         }
         public override string ToString()
         {
@@ -111,8 +92,33 @@ namespace Question7
             return (numberToWord);
         }
 
-       
-        
+
+
+        public static int SumLetters(int Number)
+        {
+            //NumericalExpression number = new NumericalExpression(Number);
+
+            int numberCount = 1;
+            int countLetters = 0;
+            int countTab = 0;
+            string numberToString;
+            while ( numberCount <= Number)
+            {
+                NumericalExpression numberCounter = new NumericalExpression(numberCount);
+                numberToString = numberCounter.ToString();
+                countLetters += numberToString.Length;
+                for (int i = 0; i < numberToString.Length; i++)
+                {
+                    if (numberToString[i] == ' ')
+                        countTab++;
+                }
+                countLetters -= countTab;
+                countTab = 0;
+                numberCount++;
+            }
+            return countLetters;
+        }
 
     }
+
 }
