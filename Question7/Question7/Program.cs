@@ -13,7 +13,7 @@ namespace Question7
             NumericalExpression num = new NumericalExpression(2);
             Console.WriteLine($"The number is:  {num.GetValue()}");
             Console.WriteLine($"The number in word is: {num.ToString()}");
-            Console.WriteLine($"The letters sum is: {NumericalExpression.SumLetters(6)}");
+            Console.WriteLine($"The letters sum is: {NumericalExpression.SumLetters(num)}");
 
         }
     }

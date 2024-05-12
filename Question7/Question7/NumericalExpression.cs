@@ -10,23 +10,19 @@ namespace Question7
 {
     class NumericalExpression
     {
-        private int number;
-        public NumericalExpression(int Number)
+        private long number;
+        public NumericalExpression(long Number)
         {
             this.number = Number;
         }
 
 
 
-        public int GetValue()
+        public long GetValue()
         {
             return number;
         }
         public override string ToString()
-        {
-            return ToWord(number);
-        }
-        public string ToWord(int number)
         {
             string numberToWord = " ";
             if (number >= 1000000000)
@@ -59,7 +55,7 @@ namespace Question7
             return (numberToWord);
         }
 
-        public string NumberToString(int number)
+        public string NumberToString(long number)
         {
             string numberToWord = "";
             string[] oneToNinty = { "","one", "two", "three", "four", "five", "six","seven", "eight", "nine", "ten",
@@ -94,18 +90,16 @@ namespace Question7
 
 
 
-        public static int SumLetters(int Number)
-        {
-            //NumericalExpression number = new NumericalExpression(Number);
 
-            int numberCount = 1;
-            int countLetters = 0;
-            int countTab = 0;
+        public static long SumLetters(NumericalExpression number)
+        {
+            
+            long countLetters = 0;
+            long countTab = 0;
             string numberToString;
-            while ( numberCount <= Number)
+            while (number.number != 0)
             {
-                NumericalExpression numberCounter = new NumericalExpression(numberCount);
-                numberToString = numberCounter.ToString();
+                numberToString = number.ToString();
                 countLetters += numberToString.Length;
                 for (int i = 0; i < numberToString.Length; i++)
                 {
@@ -114,9 +108,10 @@ namespace Question7
                 }
                 countLetters -= countTab;
                 countTab = 0;
-                numberCount++;
+                number.number -- ;
             }
             return countLetters;
+          
         }
 
     }
