@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Tasks--project\\2048Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks--project\\2048Game\\2048Game\\Board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2048Game\\Board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks--project\\2048Game\\2048Game\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2048Game\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks--project\\2048Game\\2048Game\\MovingTools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2048Game\\MovingTools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\movingtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\movingtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks--project\\2048Game\\2048Game\\GameStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2048Game\\GameStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\gamestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\gamestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tasks--project\\2048Game\\2048Game\\Direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:2048Game\\Direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +42,7 @@
               "RelativeToolTip": "2048Game\\Game.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAAB8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:10:00.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T21:10:00.554Z"
             },
             {
               "$type": "Document",
@@ -89,7 +88,7 @@
               "RelativeDocumentMoniker": "2048Game\\Board.cs",
               "ToolTip": "C:\\Tasks--project\\2048Game\\2048Game\\Board.cs",
               "RelativeToolTip": "2048Game\\Board.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAAFkAAAAMAAAA",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAADkAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T07:24:08.831Z",
               "EditorCaption": ""

@@ -57,6 +57,7 @@ namespace _2048Game
         }
         public int Move(Direction direction)
         {
+            
             if (direction == Direction.Left)
             {
                 Data = moving.MovingTileLeft(Data);
@@ -89,21 +90,43 @@ namespace _2048Game
             int sumFallTile = 0;
             int column = gameBoard.GetLength(0);
             int line = gameBoard.GetLength(1);
-            for (int i =0; i<column; i++)
+            for (int i = 0; i < column; i++)
             {
-                for (int j =0; j < line; j++)
+                for (int j = 0; j < line; j++)
                 {
-                    if (gameBoard[i,j] >0)
+                    if (gameBoard[i, j] == 2048)
+                    {
+                        return GameStatus.Win;
+                    }
+                    if (gameBoard[i, j] != 0)
                     {
                         sumFallTile++;
                     }
+                    else
+                    {
+                        return GameStatus.Idle;
+                    }
+
                 }
             }
-            if (sumFallTile != line * column)
+            if (sumFallTile == line * column)
             {
-                return GameStatus.Idle;
+                for (int i = 0; i < column; i++)
+                {
+                    for (int j = 0; j < line; j++)
+                    {
+                        if (gameBoard[i, j] == gameBoard[i + 1, j])
+                            return GameStatus.Idle;
+                        if (gameBoard[i, j] == gameBoard[i, j - 1])
+                            return GameStatus.Idle;
+                        if (gameBoard[i, j] == gameBoard[i, j + 1])
+                            return GameStatus.Idle;
+                        if (gameBoard[i, j] == gameBoard[i - 1, j])
+                            return GameStatus.Idle;
+                    }
+                }
             }
-
+            return GameStatus.Lost;
 
         }
 
