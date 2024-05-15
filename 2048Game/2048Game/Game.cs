@@ -9,6 +9,8 @@ namespace _2048Game
 {
      class Game
     {
+        public Direction direction {  get; set; }
+
         Board board = new Board();
         MovingTools movingTools = new MovingTools();
         public int[,] Board {  get; set; }
@@ -19,20 +21,54 @@ namespace _2048Game
         { 
             Board = board.Data;
             gameStatus = new GameStatus();
-           // Points = movingTools.score;
+            direction = new Direction();
+
         }
         public void GameStart()
         {
             Board = board.StartTile();
         }
-        public void Move(Direction direction)
+        public void Move()
         { 
             if (gameStatus != GameStatus.Lost)
             {
                 Points = board.Move(direction);  
             }
         }
-        
-       
+        public void userDirection(ConsoleKey userChooseDirection)
+        {
+            
+            while (userChooseDirection != ConsoleKey.LeftArrow && userChooseDirection != ConsoleKey.RightArrow &&
+                userChooseDirection != ConsoleKey.UpArrow && userChooseDirection != ConsoleKey.DownArrow)
+            
+                {
+                    Console.WriteLine("\n please choose a valid direction (UpArrow, DownArrow, LeftArrow or RightArrow)!!");
+                    userChooseDirection = Console.ReadKey().Key;
+
+                }
+                if (userChooseDirection == ConsoleKey.LeftArrow)
+                {
+                    direction = Direction.Left;
+                    
+                }
+                if (userChooseDirection == ConsoleKey.RightArrow)
+                {
+                    direction = Direction.Right;
+                    
+
+                }
+                if (userChooseDirection == ConsoleKey.UpArrow)
+                {
+                    direction = Direction.Up;
+                 ;
+                }
+                if (userChooseDirection == ConsoleKey.DownArrow)
+                {
+                    direction = Direction.Down;
+                    ;
+                }
+            
+        }
+
     }
 }

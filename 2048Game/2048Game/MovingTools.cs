@@ -15,7 +15,6 @@ namespace _2048Game
             }
         public int[,] MovingTileLeft(int[,] gameBoard)
         {
-            int roudScore = 0;
             int x = 1;
             int tile = 0;
             int column = gameBoard.GetLength(0);
@@ -41,7 +40,7 @@ namespace _2048Game
                             if (gameBoard[i, j - x] == tile)
                         {
 
-                            score = tile * 2;
+                            score += tile * 2;
                             gameBoard[i, j - x] = tile * 2;
                             gameBoard[i, j - x + 1] = 0;
                             if (j != line)
@@ -68,12 +67,10 @@ namespace _2048Game
                     }
                 }
             }
-            Console.WriteLine(score);
             return gameBoard;
         }
         public int[,] MovingTileRight(int[,] gameBoard)
         {
-            int roudScore = 0;
             int x = 1;
             int tile = 0;
             int column = gameBoard.GetLength(0);
@@ -126,13 +123,12 @@ namespace _2048Game
                     }
                 }
             }
-            Console.WriteLine(score);
+            
             return gameBoard;
         }
 
         public int[,] MovingTileUp(int[,] gameBoard)
         {
-            int roudScore = 0;
             int x = 1;
             int tile = 0;
             int column = gameBoard.GetLength(0) - 1;
@@ -185,7 +181,6 @@ namespace _2048Game
                     }
                 }
             }
-            Console.WriteLine(score);
             return gameBoard;
         }
         public int[,] MovingTileDown(int[,] gameBoard)

@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Tasks--project\\2048Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\consolegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\consolegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\movingtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\movingtools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\gamestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\gamestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|c:\\tasks--project\\2048game\\2048game\\printboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF792197-6108-495E-B5D8-6CBEF7F56A82}|2048Game\\2048Game.csproj|solutionrelative:2048game\\printboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PrintBoard.cs",
+              "DocumentMoniker": "C:\\Tasks--project\\2048Game\\2048Game\\PrintBoard.cs",
+              "RelativeDocumentMoniker": "2048Game\\PrintBoard.cs",
+              "ToolTip": "C:\\Tasks--project\\2048Game\\2048Game\\PrintBoard.cs",
+              "RelativeToolTip": "2048Game\\PrintBoard.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:17:21.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleGame.cs",
+              "DocumentMoniker": "C:\\Tasks--project\\2048Game\\2048Game\\ConsoleGame.cs",
+              "RelativeDocumentMoniker": "2048Game\\ConsoleGame.cs",
+              "ToolTip": "C:\\Tasks--project\\2048Game\\2048Game\\ConsoleGame.cs",
+              "RelativeToolTip": "2048Game\\ConsoleGame.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:13:20.619Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,25 +74,27 @@
               "RelativeDocumentMoniker": "2048Game\\Game.cs",
               "ToolTip": "C:\\Tasks--project\\2048Game\\2048Game\\Game.cs",
               "RelativeToolTip": "2048Game\\Game.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB8AAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:10:00.554Z"
+              "WhenOpened": "2024-05-13T21:10:00.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MovingTools.cs",
               "DocumentMoniker": "C:\\Tasks--project\\2048Game\\2048Game\\MovingTools.cs",
               "RelativeDocumentMoniker": "2048Game\\MovingTools.cs",
               "ToolTip": "C:\\Tasks--project\\2048Game\\2048Game\\MovingTools.cs",
               "RelativeToolTip": "2048Game\\MovingTools.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T18:02:58.357Z"
+              "WhenOpened": "2024-05-12T18:02:58.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GameStatus.cs",
               "DocumentMoniker": "C:\\Tasks--project\\2048Game\\2048Game\\GameStatus.cs",
               "RelativeDocumentMoniker": "2048Game\\GameStatus.cs",
@@ -66,7 +102,8 @@
               "RelativeToolTip": "2048Game\\GameStatus.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T10:05:42.674Z"
+              "WhenOpened": "2024-05-12T10:05:42.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -78,17 +115,18 @@
               "RelativeToolTip": "2048Game\\Direction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T10:01:52.349Z"
+              "WhenOpened": "2024-05-12T10:01:52.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Board.cs",
               "DocumentMoniker": "C:\\Tasks--project\\2048Game\\2048Game\\Board.cs",
               "RelativeDocumentMoniker": "2048Game\\Board.cs",
               "ToolTip": "C:\\Tasks--project\\2048Game\\2048Game\\Board.cs",
               "RelativeToolTip": "2048Game\\Board.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAADkAAAArAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAD0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T07:24:08.831Z",
               "EditorCaption": ""
