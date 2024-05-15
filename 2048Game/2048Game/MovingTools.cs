@@ -96,7 +96,7 @@ namespace _2048Game
                             if (gameBoard[i, j + x] == tile)
                         {
 
-                            score = tile * 2;
+                            score += tile * 2;
                             gameBoard[i, j + x] = tile * 2;
                             gameBoard[i, j + x - 1] = 0;
                             if (j != 0)
@@ -154,7 +154,7 @@ namespace _2048Game
                             if (gameBoard[i - x, j] == tile)
                         {
 
-                            score = tile * 2;
+                            score += tile * 2;
                             gameBoard[i - x, j] = tile * 2;
                             gameBoard[i - x + 1, j] = 0;
                             if (i != column)

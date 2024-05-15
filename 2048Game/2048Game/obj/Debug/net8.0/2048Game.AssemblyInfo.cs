@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2048Game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1fee34e48619618e4f6e20f0be5df9bf583f9ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd46aa5afb11ee3513801615536f1d21b5343ae9")]
 [assembly: System.Reflection.AssemblyProductAttribute("2048Game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2048Game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

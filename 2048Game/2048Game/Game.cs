@@ -41,11 +41,11 @@ namespace _2048Game
             while (userChooseDirection != ConsoleKey.LeftArrow && userChooseDirection != ConsoleKey.RightArrow &&
                 userChooseDirection != ConsoleKey.UpArrow && userChooseDirection != ConsoleKey.DownArrow)
             
-                {
-                    Console.WriteLine("\n please choose a valid direction (UpArrow, DownArrow, LeftArrow or RightArrow)!!");
+            {
+                    Console.WriteLine("\n Cilck on one of the directions- UpArrow, DownArrow, LeftArrow or RightArrow");
                     userChooseDirection = Console.ReadKey().Key;
 
-                }
+            }
                 if (userChooseDirection == ConsoleKey.LeftArrow)
                 {
                     direction = Direction.Left;
@@ -54,18 +54,16 @@ namespace _2048Game
                 if (userChooseDirection == ConsoleKey.RightArrow)
                 {
                     direction = Direction.Right;
-                    
-
                 }
                 if (userChooseDirection == ConsoleKey.UpArrow)
                 {
                     direction = Direction.Up;
-                 ;
+                 
                 }
                 if (userChooseDirection == ConsoleKey.DownArrow)
                 {
                     direction = Direction.Down;
-                    ;
+                    
                 }
             
         }

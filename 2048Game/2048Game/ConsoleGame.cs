@@ -15,10 +15,13 @@ namespace _2048Game
             PrintBoard print = new PrintBoard();
             game.GameStart();
             print.printBoard(game.Board);
+            GameStatus status = new GameStatus();
+            status = board.Status(game.Board);
 
-            while (board.Status()!=GameStatus.Lost|| board.Status()!=GameStatus.Win)
+            while (status!=GameStatus.Lost && status!=GameStatus.Win)
             {
-                if (board.Status() == GameStatus.Idle)
+                
+                if (status == GameStatus.Idle)
                 {
                     Console.WriteLine("Click direction");
                     ConsoleKey userChooseDirection = Console.ReadKey().Key;
@@ -27,14 +30,19 @@ namespace _2048Game
                     print.printBoard(game.Board);
                     Console.WriteLine($"Your score is : {game.Points}");
                 }
+                else 
+                {
+                    break;
+                }
+                status = board.Status(game.Board);
             }
-            if (board.Status() == GameStatus.Win)
+            if (status == GameStatus.Win)
             {
                 Console.WriteLine($"Your score is : {game.Points}");
                 Console.WriteLine("You WON!");
                 Console.WriteLine("Good Job");
             }
-            if (board.Status() == GameStatus.Lost)
+            if (status == GameStatus.Lost)
             {
                 Console.WriteLine($"Your score is : {game.Points}");
                 Console.WriteLine("You Lost");

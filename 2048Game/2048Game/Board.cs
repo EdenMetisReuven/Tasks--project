@@ -9,6 +9,7 @@ namespace _2048Game
 {
     class Board
     {
+       public bool sumFallTile;
         MovingTools moving = new MovingTools();
         public int[,] Data { get; protected set; }
         public int Point {  get; protected set; }
@@ -17,6 +18,7 @@ namespace _2048Game
         {
             Data = new int[4, 4];
             Point = 0;
+            sumFallTile = false;
         }
 
         public int[,] GameBoard()
@@ -59,80 +61,133 @@ namespace _2048Game
         }
         public int Move(Direction direction)
         {
-            
+            Status(Data);
             if (direction == Direction.Left)
             {
                 Data = moving.MovingTileLeft(Data);
-                Data = EnterGameTile(Data);
                 Point = moving.score;
+                Status(Data);
+                if (sumFallTile == false)
+                {
+                    Data = EnterGameTile(Data);
+                }
             }
-            if (direction == Direction.Right)
+            
+            if (direction == Direction.Right )
             {
                 Data = moving.MovingTileRight(Data);
-                Data = EnterGameTile(Data);
                 Point = moving.score;
-
-
+                Status(Data);
+                if (sumFallTile == false)
+                {
+                    Data = EnterGameTile(Data);
+                }
             }
+           
             if (direction == Direction.Up)
             {
                 Data = moving.MovingTileUp(Data);
-                Data = EnterGameTile(Data);
                 Point = moving.score;
-
+                Status(Data);
+                if (sumFallTile == false)
+                {
+                    Data = EnterGameTile(Data);
+                }
             }
-            if (direction == Direction.Down)
+           
+            if (direction == Direction.Down )
             {
                 Data = moving.MovingTileDown(Data);
-                Data = EnterGameTile(Data);
                 Point = moving.score;
-
+                Status(Data);
+                if (sumFallTile == false)
+                {
+                    Data = EnterGameTile(Data);
+                }
             }
-
-            Console.WriteLine("The score is: ");
+           
             return Point;
         }
-        public GameStatus Status()
+        public GameStatus Status(int[,] Data)
         {
-            int sumFallTile = 0;
+            int sum = 0;
             int column = Data.GetLength(0);
             int line = Data.GetLength(1);
             for (int i = 0; i < column; i++)
             {
                 for (int j = 0; j < line; j++)
                 {
+                   
                     if (Data[i, j] == 2048)
                     {
                         return GameStatus.Win;
                     }
-                    if (Data[i, j] != 0)
+                    if (Data[i,j] == 0)
                     {
-                        sumFallTile++;
+                        sumFallTile = false;
+                        return GameStatus.Idle;
                     }
-                    else
+
+                }
+            }
+           
+                sumFallTile = true;
+
+            for (int x = 1; x < column - 1; x++)
+            {
+                for (int y = 1; y < line - 1; y++)
+                {
+
+                    if (Data[x, y] == Data[x + 1, y])
+                    {
+
+                        return GameStatus.Idle;
+                    }
+
+
+                    if (Data[x, y] == Data[x, y - 1])
+                    {
+                        return GameStatus.Idle;
+                    }
+
+
+                    if (Data[x, y] == Data[x, y + 1])
+                    {
+                        return GameStatus.Idle;
+                    }
+
+
+                    if (Data[x, y] == Data[x - 1, y])
                     {
                         return GameStatus.Idle;
                     }
 
                 }
             }
-            if (sumFallTile == line * column)
-            {
-                for (int i = 0; i < column; i++)
+                for (int c = 0; c < line-1; c++)
                 {
-                    for (int j = 0; j < line; j++)
+                    if (Data[0, c] == Data[0,c+1])
                     {
-                        if (Data[i, j] == Data[i + 1, j])
-                            return GameStatus.Idle;
-                        if (Data[i, j] == Data[i, j - 1])
-                            return GameStatus.Idle;
-                        if (Data[i, j] == Data[i, j + 1])
-                            return GameStatus.Idle;
-                        if (Data[i, j] == Data[i - 1, j])
-                            return GameStatus.Idle;
+                        return GameStatus.Idle;
+                    }
+                    if (Data[column -1, c] == Data[column -1, c + 1])
+                    {
+                        return GameStatus.Idle;
                     }
                 }
-            }
+                for (int b = 0; b < line - 1; b++)
+                {
+                    if (Data[b, 0] == Data[b +1, 0])
+                    {
+                        return GameStatus.Idle;
+                    }
+                    if (Data[b, line - 1] == Data[b+1, line - 1])
+                    {
+                        return GameStatus.Idle;
+                    }
+                }
+            
+            
             return GameStatus.Lost;
 
         }
