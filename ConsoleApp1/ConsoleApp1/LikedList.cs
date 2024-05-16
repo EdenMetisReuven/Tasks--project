@@ -143,16 +143,17 @@ namespace ConsoleApp1
 
 
 
-
-        //public IEnumerable<int> ToList()
-        //{
-        //    Node current = head;
-        //    IEnumerable<int> listcopy = new List<int>();
-        //    while (current != null)
-        //    {
-        //        listcopy = current.v;
-        //    }
-        //}
+        public IEnumerator<int> ToList()
+        {
+            Node current = head;
+            while (current != null)
+            {
+                yield return current.value;
+                current = current.next;
+            }
+        }
+        
+        
 
     }
 }

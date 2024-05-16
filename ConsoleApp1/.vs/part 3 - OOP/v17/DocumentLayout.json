@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Tasks--project\\ConsoleApp1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47DFCD8F-32C7-400D-ACD1-210CBE5B17E6}|ConsoleApp1\\ConsoleApp1.csproj|c:\\tasks--project\\consoleapp1\\consoleapp1\\likedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47DFCD8F-32C7-400D-ACD1-210CBE5B17E6}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\likedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LikedList.cs",
+              "DocumentMoniker": "C:\\Tasks--project\\ConsoleApp1\\ConsoleApp1\\LikedList.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\LikedList.cs",
+              "ToolTip": "C:\\Tasks--project\\ConsoleApp1\\ConsoleApp1\\LikedList.cs",
+              "RelativeToolTip": "ConsoleApp1\\LikedList.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAAAJoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T05:32:01.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
