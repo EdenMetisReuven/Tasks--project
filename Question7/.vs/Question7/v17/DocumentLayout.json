@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|solutionrelative:question7\\numericalexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|c:\\tasks--project\\question7\\question7\\question7.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|solutionrelative:question7\\question7.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|c:\\tasks--project\\question7\\question7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|solutionrelative:question7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|c:\\tasks--project\\question7\\question7\\question7.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{07D7F6B4-07A6-4E9E-9DA4-671769DF6320}|Question7\\Question7.csproj|solutionrelative:question7\\question7.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Question7.csproj",
               "DocumentMoniker": "C:\\Tasks--project\\Question7\\Question7\\Question7.csproj",
               "RelativeDocumentMoniker": "Question7\\Question7.csproj",
@@ -44,14 +44,14 @@
               "RelativeDocumentMoniker": "Question7\\NumericalExpression.cs",
               "ToolTip": "C:\\Tasks--project\\Question7\\Question7\\NumericalExpression.cs",
               "RelativeToolTip": "Question7\\NumericalExpression.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAAAF8AAAAMAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T13:16:46.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Tasks--project\\Question7\\Question7\\Program.cs",
               "RelativeDocumentMoniker": "Question7\\Program.cs",
